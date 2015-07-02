@@ -10,11 +10,11 @@ jekyll build
 ## Copy site to repository for github hosting
 git add -A
 git commit -m "update site $(date +"%x %r")"
-git pull jamaas.com master
-git push jamaas.com master
+git pull rstat.consulting master
+git push rstat.consulting master
 echo "Site updated $(date +"%x %r") on Github server"
 
 ## Send site to Amazon S3 for web hosting
-s3cmd sync --delete-removed _site/ s3://jamaas.com
+s3cmd sync --delete-removed _site/ s3://rstat.consulting
 echo "Site updated $(date +"%x %r") on Amazon S3"
 
