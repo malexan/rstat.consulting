@@ -5,7 +5,7 @@ locale: en_UK
 description: A web page for Rstat.consulting service
 logo: site-logo.png
 search: true
-url: http://localhost:4000
+url: http://www.rstat.consulting
 
 # Jekyll configuration
 
