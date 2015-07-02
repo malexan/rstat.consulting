@@ -31,6 +31,6 @@ echo "Site updated $(date +"%x %r") on Github server"
 
 ## Send site to Amazon S3 for web hosting
 ## s3cmd sync --delete-removed _site/ s3://rstat.consulting
-s3cmd sync _site/ s3://jamaas.com
+s3cmd put _site/ s3://rstat.consulting
 echo "Site updated $(date +"%x %r") on Amazon S3"
 
